@@ -13,16 +13,13 @@ M106 P1 S255   ; part fan 100%
 M106 P2 S255   ; aux fan 100%
 M106 P3 S255   ; chamber fan 100%
 
-M140 S30       ; set bed target to 30C
-M190 R30       ; wait until bed is 30C or lower / reached by heating or cooling
-M140 S30       ; set bed target to 30C
-
-M190 R30       ; wait until bed is 30C or lower / reached by heating or cooling
-
-M140 S30       ; set bed target to 30C
-
-M190 R30       ; wait until bed is 30C or lower / reached by heating or cooling
-
+M140 S30
+M190 R30
+M140 S30
+M190 R30
+M190 R30
+M140 S30
+M190 R30
 M140 S30
 M190 R30
 M140 S30
