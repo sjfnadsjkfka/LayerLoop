@@ -44,3 +44,4 @@ python code.py
 - Add your preferred open-source license before publishing.
 - Review the UI text and defaults for your project style.
 - Test against a clean `data/` directory before your first release.
+- If you encounter any bugs, please dm superdaan0608 on discord.
